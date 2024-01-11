@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: opx;
+    padding: opx;
+    font-size: 24px;
+}
+
+h1,h2,h3{
+    width: 100%;
+    text-align: center;
+}
+
+header{
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    margin: 6px;
+    text-decoration: none;
+    border: solid 2px blue;
+    border-radius: 14px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 2px blue;
+}
+
+nav a:hover{
+    transform: scale(1.05);
+}
+
+.banner{
+    width: 100%;
+    border: 2px solid blue;
+    min-height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main{
+    max-width: 1200px;
+
+}
+
+section{
+    margin: 16px;
+}
+
+h1{
+    width: 50%;
+    min-width: 150px;
+    margin: 6px;
+
+}
+
+.seccion1{
+    width: 100%;
+    border: 2px solid blue;
+    border-radius: 14px;
+    min-height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+}
+
+.ofertatrabajo{
+    width: 100%;
+    border: 2px solid blue;
+    border-radius: 14px;
+    min-height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lista{
+   min-height: 300px;
+   width: 80%;
+   max-width: 500px;
+   border: 2px solid blue;
+   border-radius: 14px;
+   margin: 12px;
+   padding: 16px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.lista:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px blue;
+}
+
+.formulario{
+    width: 100%;
+    border: 2px solid blue;
+    border-radius: 14px;
+    min-height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 6px;
+}
+
+.formulario button{
+    margin: 6px;
+    text-decoration: none;
+    border: solid 2px blue;
+    border-radius: 14px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 2px blue;
+    color: blue;
+    background-color: white;
+}
+
+.formulario button:hover{
+    transform: scale(1.1);
+}
+
+.tabla{
+    width:100%;
+    max-width: 400px;
+}
+
+.inputlargo{
+    width: 100%;
+}
+.control{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: opx;
+}
+input{
+    margin: 4px;
+    font-size: 19px;
+}
+
+.control input{
+    width: 45%;
+}
+
+.botonenviar{
+    width: 100%;
+    text-align: center;
+}
+
+.botonenviar button{
+    padding: 6px 18px;
+}
+
